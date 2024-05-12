@@ -15,7 +15,7 @@ namespace CrashPlayerAutocrash;
 
 public class PluginConfig : BasePluginConfig
 {
-    [JsonPropertyName("Autocrash")] public List<string> players { get; set; } = new List<string>(["Nick Fox", "STEAM_1:1:0", "7123456789"]);
+    [JsonPropertyName("Autocrash")] public List<string> players { get; set; } = new List<string>(["Nick Fox", "192.168.0.0", "7123456789"]);
 }
 
 public class CrashPlayerCmd : BasePlugin, IPluginConfig<PluginConfig>
